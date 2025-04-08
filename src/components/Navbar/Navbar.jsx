@@ -29,8 +29,8 @@ const Navbar = () => {
               src="https://www.registerkaro.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.77348f99.png&w=96&q=75"
             />
             <h1 className="mb-0 text-xl font-bold">
-              <span className="text-[#ffa229]">
-                <span className="text-[#164760]">Register</span>Karo
+              <span className="text-customOrange">
+                <span className="text-customBlue">Register</span>Karo
               </span>
             </h1>
           </a>
@@ -38,7 +38,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             aria-label="Toggle navigation"
-            className="lg:hidden p-[0.25rem] px-[0.75rem] text-[#164760] bg-transparent border-[#d9d9d9] border-2 rounded-md focus:outline-none"
+            className="lg:hidden p-[0.25rem] px-[0.75rem] text-customBlue bg-transparent border-[#d9d9d9] border-2 rounded-md focus:outline-none"
             onClick={toggleMenu}
           >
             <span className="block w-[1.5em] h-[0.2em] bg-[#212529] mb-[0.3em] rounded-md"></span>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <a
                   href="/"
                   onClick={toggleMenu}
-                  className="text-lg font-semibold text-[#212529] hover:text-[#ffa229]"
+                  className="text-lg font-semibold text-[#212529] hover:text-customOrange"
                 >
                   Home
                 </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <div>
                   <button
                     onClick={toggleStartupDropdown}
-                    className="text-lg font-semibold text-[#212529] hover:text-[#ffa229] flex justify-between w-full"
+                    className="text-lg font-semibold text-[#212529] hover:text-customOrange flex justify-between w-full"
                   >
                     <span>Startup</span>
                     <span className="ml-2">
@@ -86,11 +86,11 @@ const Navbar = () => {
                 </div>
 
                 {/* Other links */}
-                <a href="/blog" onClick={toggleMenu} className="text-lg font-semibold text-[#212529] hover:text-[#ffa229]">Blog</a>
-                <a href="/contact-us" onClick={toggleMenu} className="text-lg font-semibold text-[#212529] hover:text-[#ffa229]">Contact Us</a>
-                <a href="/about-us" onClick={toggleMenu} className="text-lg font-semibold text-[#212529] hover:text-[#ffa229]">About Us</a>
+                <a href="/blog" onClick={toggleMenu} className="text-lg font-semibold text-[#212529] hover:text-customOrange">Blog</a>
+                <a href="/contact-us" onClick={toggleMenu} className="text-lg font-semibold text-[#212529] hover:text-customOrange">Contact Us</a>
+                <a href="/about-us" onClick={toggleMenu} className="text-lg font-semibold text-[#212529] hover:text-customOrange">About Us</a>
 
-                <a href="tel:+918447746183" className="w-full flex justify-center items-center bg-[#ffa229] text-white font-semibold text-lg py-3 rounded-full shadow hover:bg-[#e6951f] transition">
+                <a href="tel:+918447746183" className="w-full flex justify-center items-center bg-customOrange text-white font-semibold text-lg py-3 rounded-full shadow hover:bg-[#e6951f] transition">
                   <img alt="RegisterKaro phone" className="w-5 h-5 mr-2" src="https://www.registerkaro.in/_next/static/media/phone.5caf28ea.svg" />
                   +918447746183
                 </a>
@@ -100,12 +100,12 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex space-x-8 items-center">
-            <a href="/" className="text-[#164760] hover:text-[#ffa229] text-lg font-semibold whitespace-nowrap">Home</a>
+            <a href="/" className="text-customBlue hover:text-customOrange text-lg font-semibold whitespace-nowrap">Home</a>
 
             {/* Startup Toggle Button (no dropdown here) */}
             <button
               onClick={toggleStartupDropdown}
-              className="flex items-center text-[#164760] hover:text-[#ffa229] text-lg font-semibold whitespace-nowrap"
+              className="flex items-center text-customBlue hover:text-customOrange text-lg font-semibold whitespace-nowrap"
             >
               Startup
               <span className="ml-1">
@@ -121,11 +121,11 @@ const Navbar = () => {
               </span>
             </button>
 
-            <a href="/blog" className="text-[#164760] hover:text-[#ffa229] text-lg font-semibold whitespace-nowrap">Blog</a>
-            <a href="/contact-us" className="text-[#164760] hover:text-[#ffa229] text-lg font-semibold whitespace-nowrap">Contact Us</a>
-            <a href="/about-us" className="text-[#164760] hover:text-[#ffa229] text-lg font-semibold whitespace-nowrap">About Us</a>
+            <a href="/blog" className="text-customBlue hover:text-customOrange text-lg font-semibold whitespace-nowrap">Blog</a>
+            <a href="/contact-us" className="text-customBlue hover:text-customOrange text-lg font-semibold whitespace-nowrap">Contact Us</a>
+            <a href="/about-us" className="text-customBlue hover:text-customOrange text-lg font-semibold whitespace-nowrap">About Us</a>
 
-            <a href="tel:+918447746183" className="p-5 flex justify-center items-center bg-[#ffa229] text-white font-semibold text-lg py-3 rounded-full shadow hover:bg-[#e6951f] transition">
+            <a href="tel:+918447746183" className="p-5 flex justify-center items-center bg-customOrange text-white font-semibold text-lg py-3 rounded-full shadow hover:bg-[#e6951f] transition">
               <img alt="RegisterKaro phone" className="w-5 h-5 mr-2" src="https://www.registerkaro.in/_next/static/media/phone.5caf28ea.svg" />
               +918447746183
             </a>

@@ -97,7 +97,7 @@ const StartupDropdown = ({ closeDropdown, isMobile = false }) => {
               alt=""
               className="w-5 h-5"
             />
-            <h4 className="text-sm font-bold text-[#164760] uppercase">
+            <h4 className="text-sm font-bold text-customBlue uppercase">
               {category.title}
             </h4>
           </div>
@@ -106,7 +106,7 @@ const StartupDropdown = ({ closeDropdown, isMobile = false }) => {
               <li key={i}>
                 <a
                   href="#"
-                  className="text-sm text-[#212529] hover:text-[#ffa229] block transition"
+                  className="text-sm text-[#212529] hover:text-customOrange block transition"
                   onClick={closeDropdown}
                 >
                   {link}

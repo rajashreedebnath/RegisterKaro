@@ -5,15 +5,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: {
-        moveUpDown: 'moveCircles 10s linear infinite alternate',
+      colors: {
+        customBlue: '#164760',
+        customOrange: '#ffa229',
       },
       keyframes: {
-        moveCircles: {
-          '0%': { transform: 'translateY(0)' },
-          '100%': { transform: 'translateY(100px)' },
+        moveUpDown: {
+          '0%': { transform: 'translateY(-15px)' },
+          '100%': { transform: 'translateY(0px)' },
         },
       },
+      animation: {
+        'bounce-slow': 'bounce 4s infinite',
+        moveUpDown: 'moveUpDown 4s ease-in-out infinite alternate',
+      }
     },
   },
   plugins: [],
