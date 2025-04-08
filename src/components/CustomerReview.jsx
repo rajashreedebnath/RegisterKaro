@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import profile1 from '../assets/review/review1.png';
-import profile2 from '../assets/review/review2.png';
+import profile1 from "../assets/review/review1.png";
+import profile2 from "../assets/review/review2.png";
 
-import googleLogo from '../assets/logos/adobe.png';
-import facebookLogo from '../assets/logos/amazon.png';
+import googleLogo from "../assets/logos/adobe.png";
+import facebookLogo from "../assets/logos/amazon.png";
 
 const reviews = [
   {
@@ -32,7 +32,7 @@ export default function CustomerReview() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev === reviews.length - 1 ? 0 : prev + 1));
-    }, 3000); // Change every 3 seconds
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -47,7 +47,8 @@ export default function CustomerReview() {
             What Our Customers Say
           </h2>
           <p className="text-gray-500 text-md md:text-lg">
-            Join thousands of happy entrepreneurs using <span className="font-semibold text-orange-500">RegisterKaro</span>
+            Join thousands of happy entrepreneurs using{" "}
+            <span className="font-semibold text-orange-500">RegisterKaro</span>
           </p>
         </div>
 
@@ -79,8 +80,12 @@ export default function CustomerReview() {
                   alt={currentReview.name}
                   className="w-16 h-16 rounded-full border-4 border-orange-400 object-cover"
                 />
-                <h4 className="font-semibold text-gray-800">{currentReview.name}</h4>
-                <p className="text-gray-500 text-sm">{currentReview.platform}</p>
+                <h4 className="font-semibold text-gray-800">
+                  {currentReview.name}
+                </h4>
+                <p className="text-gray-500 text-sm">
+                  {currentReview.platform}
+                </p>
               </div>
             </motion.div>
           </AnimatePresence>

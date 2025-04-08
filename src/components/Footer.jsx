@@ -3,20 +3,7 @@ import { motion } from "framer-motion";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Logo + Tagline */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="space-y-4"
-        >
-          <h1 className="text-2xl font-bold text-white">RegisterKaro</h1>
-          <p className="text-sm text-gray-400">
-            Simplifying business registration & compliance across India 🚀
-          </p>
-        </motion.div>
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
 
         {/* Quick Links */}
         <motion.div

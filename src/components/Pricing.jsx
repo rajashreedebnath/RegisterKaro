@@ -54,8 +54,12 @@ export default function Pricing() {
               viewport={{ once: true }}
               className="border border-gray-200 p-8 rounded-2xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all bg-gradient-to-b from-white to-blue-50"
             >
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">{plan.name}</h3>
-              <p className="text-4xl font-bold text-blue-600 mb-6">{plan.price}</p>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+                {plan.name}
+              </h3>
+              <p className="text-4xl font-bold text-blue-600 mb-6">
+                {plan.price}
+              </p>
 
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature, idx) => (

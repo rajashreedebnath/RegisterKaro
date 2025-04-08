@@ -1,4 +1,3 @@
-// WhatWeDo.jsx
 import { motion } from "framer-motion";
 import womanLaptop from "../assets/womanlaptop.png";
 import smallTeam from "../assets/smallteam.png";

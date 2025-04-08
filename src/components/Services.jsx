@@ -129,14 +129,15 @@ export default function Services() {
             {/* Big Card */}
             <div className="bg-white rounded-2xl w-full lg:w-3/4 shadow-md overflow-hidden">
               <div className="flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-gray-300">
+                
                 {/* Section 1 */}
                 <div className="p-6 flex flex-col justify-between w-full md:w-1/3">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">
-                    Small business & Startup Accounts
+                      Small business & Startup Accounts
                     </h3>
                     <p className="text-gray-600 mb-4">
-                    Make sure your business meets its statutory requirements.
+                      Make sure your business meets its statutory requirements.
                     </p>
                     <div className="font-semibold">
                       Number of employees
@@ -166,10 +167,10 @@ export default function Services() {
                 <div className="p-6 flex flex-col justify-between w-full md:w-1/3">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">
-                    Growing Business Package
+                      Growing Business Package
                     </h3>
                     <p className="text-gray-600 mb-4">
-                    Additional support to help you reach your business goals.
+                      Additional support to help you reach your business goals.
                     </p>
                     <div className="font-semibold">
                       Number of employees
@@ -199,10 +200,10 @@ export default function Services() {
                 <div className="p-6 flex flex-col justify-between w-full md:w-1/3">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">
-                    Scale-Up Company Offer
+                      Scale-Up Company Offer
                     </h3>
                     <p className="text-gray-600 mb-4">
-                    Compliance, reporting & analysis of performance.
+                      Compliance, reporting & analysis of performance.
                     </p>
                     <div className="font-semibold">
                       Number of employees
@@ -240,23 +241,25 @@ export default function Services() {
                   Make sure your business meets its statutory requirements.
                 </p>
                 <div className="flex items-center justify-between mt-1">
-                        <div className="text-center w-full font-semibold">Company Formation Services</div>
-                        <div className="text-orange-400 ml-2">
-                          <svg
-                            className="w-5 h-5"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M9 5l7 7-7 7"
-                            />
-                          </svg>
-                        </div>
-                      </div>
+                  <div className="text-center w-full font-semibold">
+                    Company Formation Services
+                  </div>
+                  <div className="text-orange-400 ml-2">
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
